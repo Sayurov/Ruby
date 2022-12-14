@@ -12,4 +12,4 @@ user_name = gets.strip
 puts 'Введите ваш рост: '
 user_weight = gets.strip.to_i
 ideal_weight = (user_weight - 110) * 1.15
-puts "Ваш идеальный вес = #{ideal_weight.to_i}"
+puts "#{user_name}! Ваш идеальный вес = #{ideal_weight.to_i}"
