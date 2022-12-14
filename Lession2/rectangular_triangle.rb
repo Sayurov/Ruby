@@ -32,6 +32,8 @@ if a == b and a == c
 elsif a == b or b == c or a == c 
     puts 'Прямоугольник равнобедренный'
 elsif max_side * max_side == side[0] * side[0] + side[1] * side[1]
-    puts 'Треугольник является прямоугольным '
+    puts 'Треугольник является прямоугольным'
+else
+    puts 'Треугольник не попадает под условия'
 end
 
